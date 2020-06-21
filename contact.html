@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="menu">
+            <img src="png/logo.png" alt="">
+            <div id="links">
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="index.html">GAME</a>
+            </div>
+        </div>
+    </div>
+    <div id="contactsInfo">
+        <div id="first">
+            <h1>Contact Info:</h1>
+            <div>
+                <p>To give beginning divide,cattle. Geve moving won't,there the abundantly she'd bought air upon. Light
+                    hath
+                    subdue. Life days creature upon first heaven gathiring dry</p>
+            </div>
+            <p><b>Adress:</b> 10111 Santa Monica Boulevard, LA</p>
+            <p><b>Phone:</b>+44 987 065 908</p>
+            <p><b>Email:</b>info@Example.com</p>
+            <p><b>Fax</b>+44 987 065 909</p>
+        </div>
+        <div id="second">
+            <div>
+                <input id="name" type="text" value="Yor name">
+                <input id="email" type="text" value="Your Email">
+            </div>
+            <input id="title" type="text" value="Your Title">
+            <div><input id="comment" type="text" value="Your comment"></div>
+            <div id="button"><button>Send message</button></div>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div id="footer">
+        <div id="minifooter">
+            <div class="ftmenu">
+                <div class="lowmenu">
+                    <h1>Piroll Design, In</h1>
+                </div>
+                <div class="lowmenu">© 2017 Piroll.All rights reserved.</div>
+                <div class="lowmenu">Designed by robiruk</div>
+            </div>
+            <div class="ftmenu">
+                <div>hello@pirolltheme.com</div>
+                <div>+44 987 065 908</div>
+            </div>
+            <div class="ftmenu">
+                <div>Projects</div>
+                <div>About</div>
+                <div>Services</div>
+                <div>Carreer</div>
+            </div>
+            <div class="ftmenu">
+                <div>News</div>
+                <div>Events</div>
+                <div>Contact</div>
+                <div>Legals</div>
+            </div>
+            <div class="ftmenu">
+                <div>Facebook</div>
+                <div>Twitter</div>
+                <div>Instagram</div>
+                <div>Dribbble</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<head>
+    <script src="script/contact.js"></script>
+    <script
+        src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU&amp;apikey=<d925826c-0b24-4e20-9e9e-702f10907d7c>"
+        type="text/javascript"></script>
+    <script type="text/javascript">
+        let myMap;
+        ymaps.ready(init);
+        function init() {
+            myMap = new ymaps.Map("map", {
+                center: [56.842054, 60.651912],
+                zoom: 17,
+            });
+            myPlacemark = new ymaps.Placemark([56.842054, 60.651912], {
+                balloonContent: 'Лучшее место на Земле',
+                iconColor: '#3b5998',
+                preset: 'islands#blackStretchyIcon',
+            });
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+</head>
+
+</html>

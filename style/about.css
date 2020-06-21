@@ -1,0 +1,161 @@
+body{
+    margin:0;
+    background:#F6F6F7;
+}
+#header{
+    margin:auto;
+    width:92vw;
+    height: 8vw;
+    display: flex;
+    align-items:center;
+    background:white;
+}
+#menu{
+    margin: auto;
+    width:86%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#links{
+    display:flex;
+}
+#links a{
+    margin-left:30px;
+    text-decoration:none;
+    color:#412423;
+}
+#links a:hover{
+    color:#76C6C4;
+}
+#banner{
+    margin:auto;
+    font-size:2vw;
+    width:92vw;
+    height: 15vw;
+    color: #CBCACA;
+    background:#3C3B3C;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+#banner h1{
+    margin-top:-30px;
+    font-size:3vw;
+}
+#mainnumbers{
+    margin:auto;
+    height: 17vw;
+    width:92vw;
+    background:#58CAC2;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#numbers{
+    width: 86%;
+    margin:auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.number{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:1.5vw;
+}
+.number img{
+    width:3vw;
+    height: 3vw;
+}
+.number div{
+    width:3vw;
+    height: 3vw;
+}
+#aboutMe{
+    width:92vw;
+    height: 22vw;
+    margin: auto;
+    display: flex;
+    margin-top:5vw;
+}
+.about{
+    height: 100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+    font-size: 1.5vw;
+}
+.about p{
+    margin-left: 2vw;
+}
+#second{
+    padding-top: 6vw;
+    padding-bottom: 11vw;
+}
+#second img{
+    height: 5vw;
+}
+#first img{
+    height: 39vw;
+}
+#need{
+    margin: auto;
+    width:92vw;
+    margin-top:20vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    padding-bottom: 5vw;
+}
+button{
+    background: #77C7C3;
+    color: white;
+    padding:1vw 2vw;
+    font-size: 1.5vw;
+}
+#footer{
+    margin:auto;
+    border:1px solid green;
+    height: 20vw;
+    width:95%;
+    background:black;
+    color:white;
+    display: flex;
+    align-items:center;
+}
+#minifooter{
+    margin:auto;
+    width:86%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:2vw;
+}
+.ftmenu{
+    color: #757575;
+}
+.ftmenu h1{
+    color: white;
+    font-size:2vw;
+}
+#first{
+    height: 39vw;
+    overflow: hidden;
+}
+.transform{
+    transition: 1s ;
+}
+.transform:hover{
+    transform: scale(1.3);
+}
+a,a:visited{
+    text-decoration: none;
+    color: white;
+}

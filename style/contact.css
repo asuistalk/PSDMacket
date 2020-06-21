@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    background:#F6F6F7;
+}
+#header{
+    margin:auto;
+    width:92vw;
+    height: 8vw;
+    display: flex;
+    align-items:center;
+    background:white;
+}
+#menu{
+    margin: auto;
+    width:86%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#links{
+    display:flex;
+}
+#links a{
+    margin-left:30px;
+    text-decoration:none;
+    color:#412423;
+}
+#links a:hover{
+    color:#76C6C4;
+}
+#contactsInfo{
+    margin:auto;
+    display: flex;
+    width:92vw;
+}
+#first{
+    width:40%;
+    margin: 3vw 0;
+    font-size:1.2vw;
+    color: #8A8A8A;
+}
+#first h1,#first div, #first p{
+    margin-top:2vw;
+}
+#first h1{
+    color:black;
+}
+#second{
+    margin:6vw 0;
+}
+#name,#email{
+    height: 3vw;
+    width: 25vw;
+}
+#title{
+    width:51.7vw;
+    height: 3vw;
+}
+#comment{
+    width: 51.7vw;
+    height: 10vw;
+}
+input{
+    border:0px;
+    margin:0.5vw;
+    font-size: 2vw;
+    color: #8A8A8A;
+}
+#button{
+    margin: auto;
+    font-size: 1.5vw;
+    width: 10vw;
+    height: 5vw;
+}
+button{
+    font-size: 1.5vw;
+    width: 10vw;
+    height: 5vw;
+    background:#58CAC2;
+    color: #8A8A8A
+}
+#map{
+    margin:auto;
+    width: 80%; 
+    height: 40vw;
+}
+#footer{
+    margin:auto;
+    height: 20vw;
+    width:92vw;
+    background:black;
+    color:white;
+    display: flex;
+    align-items:center;
+}
+#minifooter{
+    margin:auto;
+    width:86%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:2vw;
+}
+.ftmenu{
+    color: #757575;
+}
+.ftmenu h1{
+    color: white;
+    font-size:2vw;
+}
